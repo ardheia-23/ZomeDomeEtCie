@@ -1,0 +1,6 @@
+#!/bin/sh
+LD_LIBRARY_PATH=/mnt/6B6A379F293990C7/qt/5.11.0/Src/qtbase/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+QT_PLUGIN_PATH=/mnt/6B6A379F293990C7/qt/5.11.0/Src/qtbase/plugins${QT_PLUGIN_PATH:+:$QT_PLUGIN_PATH}
+export QT_PLUGIN_PATH
+exec /mnt/6B6A379F293990C7/qt/5.11.0/Src/qtbase/bin/uic "$@"

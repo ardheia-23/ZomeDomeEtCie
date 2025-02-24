@@ -1,0 +1,16 @@
+-----general :
+
+- boite de parametres avec : finesse, couleur fond, couleur chevron ...
+
+-----zome :
+
+- revoir calcul et explication cercle inscrit et circonscrit, pour que les gens puissent préparer leur plancher avant
+
+-----heliyourte :
+
+- tissu, lais à découper avec qPainter, dessin capote
+
+-----geodome :
+
+- bug si d = 5,50 m, h = 3 et mis a plat oui
+
